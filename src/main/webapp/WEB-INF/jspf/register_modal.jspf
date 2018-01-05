@@ -1,0 +1,24 @@
+<%@ page pageEncoding="UTF-8" %>
+<div class="modal" id="register-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
+     style="display: none;">
+    <div class="modal-dialog">
+
+        <div class="loginmodal-container">
+            <div class="login-help">
+                <a href="#" class="close_modal" data-dismiss="modal" aria-hidden="true">x</a>
+            </div>
+            <h1>Register Your Account</h1><br>
+
+            <form>
+                <input type="text" name="email" placeholder="Email">
+                <input type="password" name="pass" placeholder="Password">
+                <input type="password" name="pass" placeholder="confim password">
+                <input type="submit" name="register" class="login loginmodal-submit" value="Register">
+            </form>
+
+            <div class="login-help">
+                <a href="#login-modal" onclick="closem('#register-modal')"data-toggle="modal">Login</a>
+            </div>
+        </div>
+    </div>
+</div>

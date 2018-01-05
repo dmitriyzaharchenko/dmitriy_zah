@@ -1,0 +1,13 @@
+<Context allowCasualMultipartParsing="true">
+    <Resource
+            name="jdbc/root"
+            auth="Container"
+            type="javax.sql.DataSource"
+            maxActive="30"
+            maxIdle="30"
+            maxWait="3000"
+            username="root"
+            password="WicKedqwe15"
+            driverClassName="com.mysql.jdbc.Driver"
+            url="jdbc:mysql://localhost:3306/hotel"/>
+</Context>
